@@ -1,4 +1,4 @@
-˵����Ŀ����
-1.��Ҫ���ܣ�
-1.1ͷ����β�����ã�ʹ��insertbefore����javascript��д��ͷ����β�������ݲ��ֽ������
-1.2ʹ��cookie�洢����ѡ�����ɫ��ʽ��value�洢��Ȼ��ı�link��hrefʹ������л�
+说明项目功能
+1.主要功能：
+1.1头部和尾部公用，使用insertbefore，将javascript书写的头部和尾部与内容部分结合起来
+1.2使用cookie存储，将选择的颜色样式的value存储，然后改变link的href使其完成切换样式
