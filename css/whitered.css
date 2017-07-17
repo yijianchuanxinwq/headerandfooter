@@ -1,0 +1,29 @@
+body{
+	background: white;
+	color: red;
+}
+.header,
+.footer{
+	border: 1px solid red;
+}
+.contain{
+	background: white;
+}
+.text_container,
+.inputT,
+.uploadF,
+.btn-w{
+	background: white;
+	border: 1px solid red;
+	color: red;
+}
+.text_container h3,
+a,
+select,
+.des_con p i.iconfont{
+	color: red;
+}
+select{
+	background: white;
+	border: 1px solid red;
+}

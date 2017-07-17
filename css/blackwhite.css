@@ -1,0 +1,29 @@
+body{
+	background: black;
+	color:white;
+}
+.header,
+.footer{
+	border: 1px solid white;
+}
+.contain{
+	background: black;
+}
+.text_container,
+.inputT,
+.uploadF,
+.btn-w{
+	background: black;
+	border: 1px solid white;
+	color:white;
+}
+.text_container h3,
+a,
+select,
+.des_con p i.iconfont{
+	color:white;
+}
+select{
+	background: black;
+	border: 1px solid white;
+}

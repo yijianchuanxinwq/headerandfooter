@@ -1,0 +1,29 @@
+body{
+	background: blue;
+	color: yellow;
+}
+.header,
+.footer{
+	border: 1px solid yellow;
+}
+.contain{
+	background: blue;
+}
+.text_container,
+.inputT,
+.uploadF,
+.btn-w{
+	background: blue;
+	border: 1px solid yellow;
+	color: yellow;
+}
+.text_container h3,
+a,
+select,
+.des_con p i.iconfont{
+	color: yellow;
+}
+select{
+	background: blue;
+	border: 1px solid yellow;
+}

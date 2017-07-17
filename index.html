@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>对比度问题</title>
+		<link rel="stylesheet" href="//at.alicdn.com/t/font_roo0gbjnmrysyvi.css">
+        <link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_5pwqpp52ek84obt9.css"/>
+		<link rel="stylesheet" type="text/css" href="css/headerandfooter.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css" id="color"/>
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="contain">
+			<div class="ads_container main_container mt20">
+        		<img src="img/download.png" alt="免费、化学公式转换系统" title="免费、化学公式转换系统">
+   			</div>
+			
+			<div class="text_container">
+        			     <h3 class="title">化学公式到盲文转换系统</h3>
+        			     <h3 class="title ">Chemical formula to Braille conversion system</h3>	
+			    <div class="des_con">
+                    <p > <i class="iconfont icon-accessory"></i>化学公式到盲文转换系统能够实现CML（Chemical Markup Language）化学公式到盲文自动转换。</p>
+                    <p > <i class="iconfont icon-accessory"></i>本转换系统化学公式盲文采用了《中国盲文数学、物理、化学符号GB/T 18028-2010》国家标准。</p>
+                    <p > <i class="iconfont icon-accessory"></i>该系统提供盲文ASCII 码（BRF文件）和盲文点字两种输出格式，ASCII码直接在盲人点显器、盲人刻印机等设备上使用，盲文点阵输出主要便于查看转换结果，方便明眼人和盲人之间的沟通交流。</p>
+            </div>
+            
+            <!--步骤一，选择转换的是文件还是输入化学公式-->
+			<div class="tab">
+				<span class="inputT"><i class="iconfont icon-bianji"></i>录入化学公式XML代码</span>
+				<span class="inputT inputTO "><i class="iconfont icon-shangchuan"></i>上传化学公式文件</span>
+			</div>
+			<!--录入化学公式的XML格式-->
+			<div class="inputTN ">
+				<textarea name="" id="content" placeholder="请输入将要录入的XML或CML格式的内容"></textarea>
+			</div>
+			<!--上传化学公式的XML，CML文件-->
+			<div class="uploadF">
+				<p>请上传化学公式文件，仅支持XML或CML文件</p>	
+				<form id="uploadForm">
+			 		<input type="file" name="upfile" id="file1" value="">
+				</form>	
+
+			</div>
+			<!--步骤二，选择的转换方式-->
+			<div class="method">
+				<label><input type="radio" name="element"  value="分子式" checked="checked" />分子式</label>
+				<label><input type="radio" name="element"  value="结构式" />结构式</label>
+				<!--<label><input type="radio" name="element"  value="原子式-离子式" />原子式-离子式</label>-->
+			</div>
+			
+			<!--步骤三，转换方式-->
+			<div class="col-md-12">
+				<span class="btn-w "><i class="iconfont icon-yulan"></i>盲文ASCII公式</span>
+				<span class="btn-w btn-G "><i class="iconfont icon-zhuanhuan"></i>盲文点字公式</span>
+			</div>
+		</div>
+	</body>
+	<script src="js/headerandfooter.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/public.js" type="text/javascript" charset="utf-8"></script>
+</html>

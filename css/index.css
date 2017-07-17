@@ -1,0 +1,203 @@
+/*涓昏鍐呭*/
+.container{
+	width: 980px;
+	margin: auto;
+}
+/*鍦栫墖*/
+.ads_container {
+    height: 182px;
+    overflow: hidden;
+    border-radius: 3px;
+    border: 1px solid #ccc; 
+    box-sizing: border-box;
+    box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+}
+.mt20 {
+    margin-top: 20px;
+    clear: both;
+}
+.ads_container img{
+        width:100%;
+        height:100%;
+}
+/*2.鍖栧浠嬬粛浠嬬垂鏂囧瓧*/
+.text_container{
+    width: 980px;
+    margin: 20px auto 0 auto;
+    color: #666;
+    line-height: 26px;
+    border: 1px solid #eaeaea;
+    padding: 20px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background: #f7f7f7;
+    overflow: hidden;
+}
+
+.text_container h3{
+    text-align: center;
+    color: #666;
+    line-height: 26px;
+    font-weight: 400px;
+}
+.title{
+	font-weight: 100;
+	font-size: 22px;
+}
+.text_container p{
+    text-align: left;
+    font-size: 14px;
+    margin-top: 10px;
+    /*text-indent: 1em;*/
+    font-weight: 400;
+}
+.des_con p{
+    width: 33.3333333%;
+    float: left;
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.des_con p i.iconfont {
+    color: #ed2600;
+    font-size: 22px;
+    vertical-align: middle;
+}
+.des_con p i.iconfont {
+    color:blue;
+    font-size: 22px;
+    vertical-align: middle;
+}
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/*寮€濮嬭浆鍖栧唴瀹�*/
+/*1.澶ф爣棰�*/
+.contain {
+	font-size: 20px;
+	font-weight: bold;
+	/*border-bottom: 3px solid #734BA9;*/
+	padding-bottom: 9px;
+	margin: 40px 0px 0px 15px;
+	color: #E36159;
+}
+/*2.tab鍒囨崲*/
+.tab{
+	margin-top: 20px;
+}
+.tab span{
+	padding:10px;
+}
+.inputTO{
+	background-color: #f7f7f7;
+	border: 1px solid #eaeaea;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+}
+/*2.1褰曞叆鍐呭*/
+.inputTN{
+	margin-top: 10px;
+	overflow: hidden;
+    width: 100%;
+    top: 43px;
+    font-size: 14px;
+    /*border: 1px solid #eaeaea;*/
+    border-radius: 3px;
+    border-top-left-radius: 0;
+    background: #f7f7f7;
+    display: none;
+}
+.inputTN textarea{
+	width: 100%;
+    border: 0px;
+    background: #f7f7f7;
+    max-width: 100%;
+    font-size: 14px;
+    min-width: 100%;
+    max-height: 400px;
+    min-height: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: 0px;
+    border-radius: 3px;
+    border-top-left-radius: 0;
+    height: 100%;
+}
+/*2.1涓婁紶鏂囦欢*/
+.uploadF{
+	width: 100%;
+	margin-top: 10px;
+	padding: 10px;
+	background:  #f7f7f7;
+	border-radius: 3px;
+}
+.uploadF p{
+	font-size: 14px;
+	margin: 10px 0px;
+	font-weight: 800;
+}
+/*2.3閫夋嫨杞崲鏂瑰紡*/
+.method{
+	padding: 20px;
+}
+/*2.4閫夋嫨杞崲鏂瑰紡鎸夐挳*/
+.btn-w{
+	width: 195px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-right: 20px;
+    background: #5cb85c;
+    caborder-color: #4e4c;
+    color: #fff;
+    display: inline-block;
+    border-radius: 3px;
+}
+.btn-G{
+	background: #428bca;
+    border-color: #357ebd;
+}
+/*2.5杞崲杩涚▼*/
+.transformJ,
+.transformS{
+	padding: 10px 0px;
+	font-size: 16px;
+	color: lightgreen;
+	display: none;
+}
+.transformS{
+	font-size: 18px;
+	color: green;
+}
+/*2.6杈撳嚭缁撴灉*/
+.content{
+    margin:10px 0px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid #eaeaea;
+    background: #f7f7f7;
+
+}
+.content pre{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+/*2.7涓嬭浇*/
+.col-md-12{
+	margin:20px 0px;
+}
+.transformD .btn-w a{
+	text-decoration: none;
+	color:white;
+}
+/*2.8鍒ゆ柇鏄惁瀛樺湪鐢ㄦ埛鍚�*/
+#userN{
+	display: none;
+}
